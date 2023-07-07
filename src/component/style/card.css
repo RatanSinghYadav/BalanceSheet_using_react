@@ -1,0 +1,31 @@
+.mainCardBox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.cardbox{
+    border: 2px solid gray;
+    display: flex;
+    border-radius: 0.9rem;
+    height: 6rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.cardBox_2{
+    background-color: rgb(207,226,243);
+}
+.cardBox_3{
+    background-color: rgb(214,234,209);
+}
+/* .textFont{
+    font-size: 2vw;
+    font-weight: 600;
+}
+.textFont_1{
+    font-size: 1.3vw;
+} */
+.col-3 {
+    flex: 0 0 auto;
+    width: 20%;
+}

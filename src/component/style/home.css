@@ -1,0 +1,87 @@
+.mainBox{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    border: 1px solid rgb(201, 200, 200);
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    background-color: rgb(250,252,251);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.leftBar{
+    background-color: rgb(207,226,243);
+    width: 5rem;
+}
+.rightBar{
+    height: auto;
+    width: 78rem;
+    background-color: white;
+}
+.box{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.cloud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.boxImage{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 3rem;
+    align-items: center;
+}
+.profile{
+    background-color: rgb(179,168,211);
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 23.8rem 0px 0px 1rem;
+    font-weight: 600;
+}
+
+.topRow_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 20px 0px 20px;
+}
+
+.tableBox_1{
+    border: 2px solid gray;
+    margin: 2rem 1.5rem 0rem 1.5rem;
+    border-radius: 6px;
+    height: 12.5rem;
+}
+.tableBox_2{
+    border: 2px solid gray;
+    margin: 2rem 1.5rem 0rem 1.5rem;
+    border-radius: 6px;
+    height: 10.5rem;
+}
+.tableBox_3{
+    border: 2px solid gray;
+    margin: 2rem 1.5rem 1rem 1.5rem;
+    border-radius: 6px;
+    height: 10.5rem;
+}
+.tableData{
+    border-color: white;
+}
+thead{
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+.tableBtn{
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 0px 16px 2px 16px;
+    background-color: white;
+    color: dimgray;
+}
